@@ -6,7 +6,7 @@ interface IApp {
 
 function App({ items }: IApp) {
     // set Infinitely
-    const isInfinitely = true
+    const isInfinitely = false
     const {
         currentPage,
         totalPages,
